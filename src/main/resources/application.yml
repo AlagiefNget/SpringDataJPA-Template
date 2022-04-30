@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/school-db
+    driverClassName: com.mysql.cj.jdbc.Driver
+    name: root
+    password: viruskilas
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: 'true'
